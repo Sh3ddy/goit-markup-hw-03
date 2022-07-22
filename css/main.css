@@ -1,0 +1,214 @@
+body {
+    background-color:#FFFFFF;}
+ /* button */
+    button {cursor: pointer;
+}
+.button {
+    color:#2196F3;
+    font-family:'Roboto';
+}
+.hero_button {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    margin: 0 auto;
+    color: #FFFFFF;
+    display: block;
+    background-color: #2196F3;
+    border-radius: 4px;
+    width: 200px;
+    height: 50px;
+}
+ /* logo */
+.logo {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1;
+    text-decoration: none;
+    color: #2196F3}
+.accent { 
+    text-decoration:none;
+    color:black;}
+    /* title */
+.accent_title { 
+    text-decoration:none;
+    color:#FFFFFF;}
+.title {
+    font-family:'Roboto';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration:none;
+    color: #212121;
+    margin-bottom: 10px;}
+.hero_title{
+    font-family: 'Roboto';
+    text-align: center;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color:#FFFFFF;
+    padding-bottom: 30px;
+    margin: 0 auto;
+    width: 696px;
+    }
+.hero_subject {
+    background-color:#2F303A;
+    width: 100%;
+    padding: 200px 0px;
+    margin-bottom: 137px;
+}
+.title_text {
+    font-family:'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 2;
+    letter-spacing: 0.03em;
+    text-decoration:none;
+    color: #757575;}
+.title-section {
+    display:flex;
+    margin-bottom: 94px;
+}
+.title-content:not( :last-child) {
+    margin-left: 30px;
+}
+.work-item:not(:last-child)
+{ margin-right: 30px;
+} 
+    /* section */
+
+    /* link */
+.link {
+    font-family:'Roboto';
+    color: #212121;}
+.work-title {
+    font-family:'Roboto';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-decoration:none;
+    
+    color: #212121;
+    margin-bottom: 50px;
+    padding-top: 3px;
+    }
+.work-list {
+    display:flex;
+    justify-content: center;
+}
+.work-heading {
+    background-color: #F5F4FA;
+}
+.work-content {
+    margin-right: 30px;
+    margin-bottom: 94px;
+    text-align: center;
+
+}
+.work-content {
+    padding-bottom: 30px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;
+}
+    /* list */
+.list {font-family:'Roboto';
+    color: #212121;
+    margin-top: 30px;}
+    /* item */
+.item {font-family:'Roboto';
+    color: #757575;
+    margin-top: 10px;
+}
+    /* img */
+.img {
+    width: 270px;
+    height: 260px;
+}
+    /* header */
+.header {
+    font-family:'Roboto';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1;
+    letter-spacing: 0.02em;
+    color: #757575;} 
+.header:hover {color: #2196F3;}
+   /* wrapper */
+.wrapper {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 2px;
+    letter-spacing: 0.03em;
+    color:#757575;
+}
+.wrapper_item {
+    font-family:'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    }
+.wrapper:hover {color: #2196F3;}
+.logo_wrapper {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1;
+    text-decoration: none;
+    color: #2196F3;
+    }
+.wrapper-botton {
+    margin-top:9px;
+}
+.wrapper-inc {
+    margin-bottom: 20px;
+}
+.wrapper-box {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+    /* footer */
+.footer {
+    background-color: #2F303A;
+}
+address {
+    font-style: normal;
+}
+ /* container */
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.flex {
+    display: flex;
+}
+.site-nav {
+    margin-right: 50px;
+}
+.site-logo {
+    margin-right: 93px;
+}
+.nav-group {
+    display: flex;
+}
+.flex-content {
+    display: flex;
+    margin-left: auto;
+}
