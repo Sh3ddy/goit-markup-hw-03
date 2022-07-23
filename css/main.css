@@ -64,7 +64,6 @@ body {
     background-color:#2F303A;
     width: 100%;
     padding: 200px 0px;
-    margin-bottom: 137px;
 }
 .title_text {
     font-family:'Roboto';
@@ -76,7 +75,10 @@ body {
     color: #757575;}
 .title-section {
     display:flex;
-    margin-bottom: 94px;
+    padding-top: 113px;
+}
+.section {
+    padding-bottom: 94px;
 }
 .title-content:not( :last-child) {
     margin-left: 30px;
@@ -90,6 +92,9 @@ body {
 .link {
     font-family:'Roboto';
     color: #212121;}
+.work {
+    padding-bottom: 94px;
+}
 .work-title {
     font-family:'Roboto';
     font-weight: 700;
@@ -101,7 +106,7 @@ body {
     
     color: #212121;
     margin-bottom: 50px;
-    padding-top: 3px;
+    padding-top: 94px;
     }
 .work-list {
     display:flex;
@@ -145,6 +150,7 @@ border-radius: 0px 0px 4px 4px;
     letter-spacing: 0.02em;
     color: #757575;} 
 .header:hover {color: #2196F3;}
+.site-nav:hover {color: #2196F3;}
    /* wrapper */
 .wrapper {
     font-family: 'Roboto';
